@@ -1,0 +1,57 @@
+/* Home.css */
+
+/* Style for the whole page container */
+.page-container {
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Set the height to cover the entire viewport */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the content container */
+.content-container {
+  color: rgb(10, 9, 9); /* Set text color */
+  margin-bottom: 20px;
+  font-size: 24px;
+  align-items:center; /* Set font size */
+  /* Add any other styles as needed */
+}
+.head1{
+  color: rgb(230, 19, 19);
+}
+
+/* Style for the container */
+/* Style for the container */
+.button-container {
+  position: absolute; /* Set position to absolute for precise positioning */
+  top: 50px; /* Position at the top */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Style for the buttons */
+#productsBtn1,
+#productsBtn2 {
+  padding: 10px 20px; /* Add padding */
+  font-size: 16px; /* Set font size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  background-color: #e0831f; /* Set background color */
+  color: white; /* Set text color */
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s; /* Add transition effect */
+  margin: 0 10px; /* Add spacing between buttons */
+}
+
+/* Style for the first button */
+#productsBtn1 {
+  margin-right: 250px; /* Push the button to the right */
+}
+
+/* Style for the second button */
+#productsBtn2 {
+  margin-left: 250px; /* Push the button to the left */
+}

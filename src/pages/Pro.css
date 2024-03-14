@@ -1,0 +1,48 @@
+/* Pro.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  th{
+    background-color: rgb(189, 74, 97);
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 9px solid #ddd;
+    text-align: left;
+    background-color: #d49489 ;
+  }
+  
+  
+ 
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #6f8f75;
+    color: #e4ebe6;
+  }
+  
+  
+  
+  form {
+    margin-top: 40px;
+  }
+  
+  input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+  }
+  
